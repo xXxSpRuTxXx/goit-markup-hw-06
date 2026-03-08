@@ -21,10 +21,15 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="header hide">
+    <header class="header">
       <div class="container header-container">
         <nav class="navigation">
           <a href="./index.html" class="logo"><span>Web</span>Studio</a>
+          <button class="mobile-menu-btn" type="button">
+            <svg class="mobile-menu-icon" width="24" height="24">
+              <use href="./images/icons.svg#burger-menu"></use>
+            </svg>
+          </button>
           <ul class="navigation-list">
             <li class="navigation-item">
               <a href="#" class="navigation-link current">Studio</a>
@@ -54,9 +59,9 @@
       </div>
     </header>
     <!-- Main -->
-    <main class="main">
+    <main class="main hide">
       <!-- Hero -->
-      <section class="hero hide">
+      <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <div class="hero-button-container">
@@ -155,7 +160,11 @@
           <ul class="team-list">
             <li class="team-item">
               <img
-                src="./images/team/mark.jpg"
+                srcset="
+                  ./images/team/mark@x1.jpg 1x,
+                  ./images/team/mark@x2.jpg 2x
+                "
+                src="./images/team/mark@x1.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -238,7 +247,11 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/team/tom.jpg"
+                srcset="
+                  ./images/team/tom@x1.jpg 1x,
+                  ./images/team/tom@x2.jpg 2x
+                "
+                src="./images/team/tom@x1.jpg"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -321,7 +334,11 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/team/camila.jpg"
+                srcset="
+                  ./images/team/camila@x1.jpg 1x,
+                  ./images/team/camila@x2.jpg 2x
+                "
+                src="./images/team/camila@x1.jpg"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -404,7 +421,11 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/team/daniel.jpg"
+                srcset="
+                  ./images/team/daniel@x1.jpg 1x,
+                  ./images/team/daniel@x2.jpg 2x
+                "
+                src="./images/team/daniel@x1.jpg"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -496,7 +517,11 @@
             <li class="portfolio-item">
               <div class="portfolio-img-wrapper">
                 <img
-                  src="./images/portfolio/banking.jpg"
+                  srcset="
+                    ./images/portfolio/banking@x1.jpg 1x,
+                    ./images/portfolio/banking@x2.jpg 2x
+                  "
+                  src="./images/portfolio/banking@x1.jpg"
                   alt="banking"
                   width="360"
                   height="300"
@@ -514,7 +539,11 @@
             <li class="portfolio-item">
               <div class="portfolio-img-wrapper">
                 <img
-                  src="./images/portfolio/cashless.jpg"
+                  srcset="
+                    ./images/portfolio/cashless@x1.jpg 1x,
+                    ./images/portfolio/cashless@x2.jpg 2x
+                  "
+                  src="./images/portfolio/cashless@x1.jpg"
                   alt="cashless payment"
                   width="360"
                   height="300"
@@ -536,7 +565,11 @@
             <li class="portfolio-item">
               <div class="portfolio-img-wrapper">
                 <img
-                  src="./images/portfolio/meditation.jpg"
+                  srcset="
+                    ./images/portfolio/meditation@x1.jpg 1x,
+                    ./images/portfolio/meditation@x2.jpg 2x
+                  "
+                  src="./images/portfolio/meditation@x1.jpg"
                   alt="meditation app"
                   width="360"
                   height="300"
@@ -554,7 +587,11 @@
             <li class="portfolio-item">
               <div class="portfolio-img-wrapper">
                 <img
-                  src="./images/portfolio/taxi.jpg"
+                  srcset="
+                    ./images/portfolio/taxi@x1.jpg 1x,
+                    ./images/portfolio/taxi@x2.jpg 2x
+                  "
+                  src="./images/portfolio/taxi@x1.jpg"
                   alt="taxi service"
                   width="360"
                   height="300"
@@ -573,7 +610,11 @@
             <li class="portfolio-item">
               <div class="portfolio-img-wrapper">
                 <img
-                  src="./images/portfolio/screen.jpg"
+                  srcset="
+                    ./images/portfolio/screen@x1.jpg 1x,
+                    ./images/portfolio/screen@x2.jpg 2x
+                  "
+                  src="./images/portfolio/screen@x1.jpg"
                   alt="screen"
                   width="360"
                   height="300"
@@ -592,7 +633,11 @@
             <li class="portfolio-item">
               <div class="portfolio-img-wrapper">
                 <img
-                  src="./images/portfolio/courses.jpg"
+                  srcset="
+                    ./images/portfolio/courses@x1.jpg 1x,
+                    ./images/portfolio/courses@x2.jpg 2x
+                  "
+                  src="./images/portfolio/courses@x1.jpg"
                   alt="online courses"
                   width="360"
                   height="300"
@@ -695,7 +740,6 @@
             </li>
           </ul>
         </div>
-
         <form class="footer-form" name="subscribeForm">
           <label for="footerEmail" class="footer-form-label">Subscribe</label>
           <div class="footer-form-wrapper">
