@@ -779,7 +779,6 @@ p {
   justify-content: center;
   flex-direction: column;
   gap: 72px;
-  margin-left: 92px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -789,6 +788,7 @@ p {
     align-items: baseline;
     justify-content: flex-start;
     gap: 72px 24px;
+    padding-left: 108px;
   }
 }
 
@@ -796,6 +796,7 @@ p {
   .footer-container {
     gap: 0;
     justify-content: space-between;
+    padding-left: 0;
   }
 }
 
@@ -1023,6 +1024,13 @@ p {
   .logo {
     margin-left: 0;
     margin-right: 76px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .logo {
+    margin-left: 0;
+    margin-right: 120px;
   }
 }
 
@@ -1299,7 +1307,7 @@ p {
   background-color: transparent;
 }
 
-@media only screen and (min-width: 321px) {
+@media only screen and (min-width: 765px) {
   .mobile-menu-btn {
     display: none;
   }
@@ -1337,7 +1345,7 @@ p {
   transform: translateX(0);
 }
 
-@media only screen and (min-width: 321px) {
+@media only screen and (min-width: 765px) {
   .mobile-menu.is-open {
     display: none;
   }
