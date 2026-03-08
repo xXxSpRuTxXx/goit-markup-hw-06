@@ -882,108 +882,112 @@
 
     <!-- Mobile menu -->
     <div class="mobile-menu">
-      <button class="mobile-menu-close-btn" type="button">
-        <svg class="mibile-menu-close-icon" width="8" height="8">
-          <use href="./images/icons.svg#close"></use>
-        </svg>
-      </button>
-      <nav>
-        <ul class="mobile-menu-nav">
-          <li class="mobile-menu-nav-item">
-            <a class="mobile-menu-nav-link active" href="#">Studio</a>
+      <div class="mobile-menu-container">
+        <button class="mobile-menu-close-btn" type="button">
+          <svg class="mibile-menu-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu-nav">
+          <ul class="mobile-menu-nav-list">
+            <li class="mobile-menu-nav-item">
+              <a class="mobile-menu-nav-link active" href="#">Studio</a>
+            </li>
+            <li class="mobile-menu-nav-item">
+              <a class="mobile-menu-nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="mobile-menu-nav-item">
+              <a class="mobile-menu-nav-link" href="#">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="mobile-menu-contacts">
+          <li class="mobile-menu-contacts-item">
+            <a
+              class="mobile-menu-contacts-link accent-text"
+              href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
-          <li class="mobile-menu-nav-item">
-            <a class="mobile-menu-nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="mobile-menu-nav-item">
-            <a class="mobile-menu-nav-link" href="#">Contacts</a>
+          <li class="mobile-menu-contacts-item">
+            <a
+              class="mobile-menu-contacts-link"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
         </ul>
-      </nav>
 
-      <ul class="mobile-menu-contacts">
-        <li class="mobile-menu-contacts-item">
-          <a
-            class="mobile-menu-contacts-link accent-text"
-            href="tel:+110001111111"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-        <li class="mobile-menu-contacts-item">
-          <a class="mobile-menu-contacts-link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-      </ul>
-
-      <ul class="mobile-menu-socials-list">
-        <li class="mobile-menu-socials-item">
-          <a
-            class="mobile-menu-socials-link"
-            href="https://www.instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><svg
-              class="mobile-menu-socials-img"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
+        <ul class="mobile-menu-socials-list">
+          <li class="mobile-menu-socials-item">
+            <a
+              class="mobile-menu-socials-link"
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg
+                class="mobile-menu-socials-img"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <use href="./images/icons.svg#icon-inst"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-socials-item">
+            <a
+              class="mobile-menu-socials-link"
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <use href="./images/icons.svg#icon-inst"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mobile-menu-socials-item">
-          <a
-            class="mobile-menu-socials-link"
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg
-              class="mobile-menu-socials-img"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
+              <svg
+                class="mobile-menu-socials-img"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <use href="./images/icons.svg#icon-twit"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-socials-item">
+            <a
+              class="mobile-menu-socials-link"
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg
+                class="mobile-menu-socials-img"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <use href="./images/icons.svg#icon-face"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-socials-item">
+            <a
+              class="mobile-menu-socials-link"
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <use href="./images/icons.svg#icon-twit"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mobile-menu-socials-item">
-          <a
-            class="mobile-menu-socials-link"
-            href="https://www.facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><svg
-              class="mobile-menu-socials-img"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <use href="./images/icons.svg#icon-face"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mobile-menu-socials-item">
-          <a
-            class="mobile-menu-socials-link"
-            href="https://www.linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg
-              class="mobile-menu-socials-img"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <use href="./images/icons.svg#icon-link"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
+              <svg
+                class="mobile-menu-socials-img"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <use href="./images/icons.svg#icon-link"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
