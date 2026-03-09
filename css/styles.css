@@ -797,11 +797,14 @@ p {
 
 @media only screen and (min-width: 1158px) {
   .footer-container {
-    /* gap: 120px; */
-    justify-content: flex-start;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
     padding-left: 15px;
     padding-right: 15px;
     flex-wrap: nowrap;
+    gap: 0;
+    width: 100%;
   }
 }
 
@@ -868,7 +871,7 @@ p {
 
 @media only screen and (min-width: 1158px) {
   .footer-socials {
-    margin-left: 120px;
+    /* margin-left: 120px; */
   }
 }
 
@@ -928,7 +931,7 @@ p {
 @media only screen and (min-width: 1158px) {
   .footer-form {
     width: 453px;
-    margin-left: 80px;
+    /* margin-left: 80px; */
   }
 }
 
