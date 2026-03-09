@@ -1041,6 +1041,12 @@ p {
   }
 }
 
+@media only screen and (min-width: 1158px) {
+  .footer .logo {
+    margin-right: 0;
+  }
+}
+
 .logo span {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
