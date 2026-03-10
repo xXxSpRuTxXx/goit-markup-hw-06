@@ -294,7 +294,7 @@ p {
 
 @media only screen and (min-width: 1158px) {
   .hero {
-    min-width: 1440px;
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 188px;
@@ -931,7 +931,7 @@ p {
   }
 }
 
-.footer-form-label {
+.footer-form-titel {
   font-weight: 500;
   color: #fff;
   margin-bottom: 16px;
