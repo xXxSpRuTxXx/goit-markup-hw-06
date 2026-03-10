@@ -1427,7 +1427,7 @@ p {
 
 .mobile-menu-socials-list {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   gap: 40px;
   list-style: none;
 }
